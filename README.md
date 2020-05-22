@@ -1,2 +1,0 @@
-# GootStrap
-WebTime Styles
