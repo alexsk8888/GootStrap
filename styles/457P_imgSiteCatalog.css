@@ -1,0 +1,69 @@
+/* ============== site catalog 457P_img ================================*/
+
+div.colTextColImg {
+	width: 100%;
+	display: flex !important;
+	flex-wrap: nowrap;
+}
+
+
+div.colTextColImg .leftContent_colTextColImg,
+div.colTextColImg .rightContent_colTextColImg {
+	width: 50%;
+}
+
+
+div.colTextColImg .rightContent_colTextColImg {
+	display: flex;
+	align-items: center;
+}
+
+
+div.colTextColImg .rightContent_colTextColImg img {
+	width: 100%;
+}
+
+
+div.colTextColImg .leftContent_colTextColImg{
+	padding: 0 20px 0 0;	
+}
+
+
+div.colTextColImg div.leftContent_colTextColImg ul {
+	color: #00caff;
+}
+
+
+div.colTextColImg div.leftContent_colTextColImg li {
+	margin-left: 0;
+}
+
+
+div.colTextColImg div.leftContent_colTextColImg li span {
+	color: #686868;
+}
+
+
+div.colTextColImg div.leftContent_colTextColImg li span.fontBold {
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 770px) {
+	div.colTextColImg {
+		flex-wrap: wrap;
+	}
+	
+	
+	div.colTextColImg .leftContent_colTextColImg,
+	div.colTextColImg .rightContent_colTextColImg {
+		width: 100%;
+	}
+	
+	
+	div.colTextColImg .leftContent_colTextColImg{
+		padding: 0 0 0 0;	
+	}
+}
+
+/* ================================================================= */
